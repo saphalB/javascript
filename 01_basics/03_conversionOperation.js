@@ -48,14 +48,14 @@ let str2 = " jack"
 str3 = str1 + str2
 // console.log(str3)
 
-// console.log(1 + "2"); //output - 12
-// console.log("1" + 2); //output - 12
-// console.log("1" + 2 + 2); //output - 122
-// console.log(1+ 2 + "2"); //output - 32
+// console.log(1 + "2"); //output -> 12
+// console.log("1" + 2); //output -> 12
+// console.log("1" + 2 + 2); //output -> 122
+// console.log(1+ 2 + "2"); //output -> 32
 
-//console.log(+true); //output - 1
-//console.log(true+); //output - error
-//console.log(+""); //output - 0
+//console.log(+true); //output -> 1
+//console.log(true+); //output -> error
+//console.log(+""); //output -> 0
 
 
 
