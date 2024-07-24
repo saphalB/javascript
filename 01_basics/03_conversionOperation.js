@@ -19,13 +19,13 @@ let BooleanIsLoggedIn = Boolean(isLoggedIn)
 //console.log(BooleanIsLoggedIn);
  
 
-let someNumber = 33
-let stringNumber = String(someNumber)
-console.log(stringNumber)
-console.log(typeof stringNumber)
-
-
 // 1 => true
 // 0 => false
 //"" => false
 //"Jack" => true
+
+
+let someNumber = 33
+let stringNumber = String(someNumber)
+console.log(stringNumber)
+console.log(typeof stringNumber)
