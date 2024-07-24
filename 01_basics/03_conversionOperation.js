@@ -55,7 +55,7 @@ str3 = str1 + str2
 
 //console.log(+true); //output - 1
 //console.log(true+); //output - error
-//console.log(+""); //output -0
+//console.log(+""); //output - 0
 
 
 
