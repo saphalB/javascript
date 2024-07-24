@@ -15,7 +15,7 @@ const heroes = ["Spiderman", "Superman","Hulk"]
     age = 20
 }
 
-console.log(typeof age)
+// console.log(typeof age)
 
 /* JavaScript is a dynamic language and not static, 
 which means that variables can hold values of different types during runtime. 
@@ -32,8 +32,8 @@ let myName = "Jack"
 let anotherName = myName
 myName = "Jill"
 
-console.log(myName);
-console.log(anotherName);
+// console.log(myName);
+// console.log(anotherName);
 
 // example of heap
 
@@ -45,6 +45,28 @@ let userOne = {
 let userTwo = userOne
 userTwo.email = "abc@hotmail.com"
 
-console.log(userOne.email);
-console.log(userTwo.email);
+// console.log(userOne.email);
+// console.log(userTwo.email);
+
+
+// One more Example//
+
+let box1 = {
+    width: 100,
+    height: 50
+};
+
+let box2 = box1;
+
+box2.width = 200;
+
+console.log('Box 1 width: ', box1.width);
+console.log('Box 2 width: ', box2.width);
+
+
+/*You can see that changing the width property of the box2 object will also change 
+the width property of the box1 object. 
+This happens because while assigning the value of box1 into box2, we are actually copying
+ the reference and not the actual object. Therefore, both box1 and box2 point to the same 
+ object.As both point to the same object, changing one changes the other.*/
 
