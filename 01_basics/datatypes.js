@@ -17,3 +17,34 @@ const heroes = ["Spiderman", "Superman","Hulk"]
 
 console.log(typeof age)
 
+/* JavaScript is a dynamic language and not static, 
+which means that variables can hold values of different types during runtime. 
+Unlike languages such as Typescript or Java, you don't need to declare the data type of a 
+variable explicitly. */ 
+
+
+//************************************** Memory *************************************//
+
+// Types : Stack(Primitive) & Heap(Non-primitive) //
+
+// example of stack memory
+let myName = "Jack"
+let anotherName = myName
+myName = "Jill"
+
+console.log(myName);
+console.log(anotherName);
+
+// example of heap
+
+let userOne = {
+    email : "abc@gmail.com"
+    
+}
+
+let userTwo = userOne
+userTwo.email = "abc@hotmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
