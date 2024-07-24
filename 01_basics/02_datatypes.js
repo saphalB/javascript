@@ -2,7 +2,7 @@
         
        // alert(3 + 3) //results an error since we are using nodejs, not a browser
 
-
+      /*datatypes*/ 
        let name ="Jack"
        let age = 18
        let isLoggedIn = false
