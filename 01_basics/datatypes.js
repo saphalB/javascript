@@ -3,7 +3,7 @@
 
 const id = Symbol('123')
 const id2 = Symbol('123')
-console.log(id === id2) 
+// console.log(id === id2) 
 
 
 // Non-Primitive datatypes : call by reference or reference type datatypes.
