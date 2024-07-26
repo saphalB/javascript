@@ -85,9 +85,9 @@ const course = {
 /**********************************************   JSON  / API   *************************************** */
 
 {
-    "name": "saphal",
-    "id" : 101,
-    "isLoggedIn" : true
+    // "name": "saphal",
+    // "id" : 101,
+    // "isLoggedIn" : true
     
 }
   
