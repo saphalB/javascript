@@ -51,7 +51,7 @@ const users = [
     }
 ]
 
-console.log(users[1].email);
+// console.log(users[1].email);
 
 // console.log(tinderUser);
 
@@ -62,5 +62,40 @@ console.log(users[1].email);
 
 // console.log(tinderUser.hasOwnProperty("isLoggedIn"));
 
+/******************************* object destructure ******************************/
+
+const course = {
+      courseName : "Js",
+      coursePrice : 999 ,
+      courseInstructor : "CoderHitesh"
+
+}
+
+// console.log(course.courseInstructor);              //can use any one among these three in lines 74,76,77,79,80
+
+  const {courseInstructor } = course                   // this is more proper and popularly used
+// console.log(courseInstructor);
+
+  const {courseInstructor:instructor } = course             // this is also more proper and popularly used
+// console.log(instructor);
+
+// object destructuring is recognized when curly braces are involved.[Example: const {courseInstructor:instructor } = course]
+
+
+/**********************************************   JSON  / API   *************************************** */
+
+{
+    "name": "saphal",
+    "id" : 101,
+    "isLoggedIn" : true
+    
+}
+  
+[
+
+    {},
+    {},
+    {}
+]
 
 
