@@ -1,3 +1,7 @@
+// for in loop
+
+
+
 const myObj = {
     js : "javascript",
     cpp : "c++",

@@ -1,3 +1,6 @@
+
+// for each loop
+
 const coding =[ "js", "ruby" , "python", "cpp"]
 
 // coding.forEach( function (val){             //for each loop is mainly used for array
