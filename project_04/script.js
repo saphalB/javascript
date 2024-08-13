@@ -27,12 +27,12 @@ function validateGuess(guess) {
   if (isNaN(guess)) {
     alert('PLease enter a valid number');
   } else if (guess < 1) {
-    alert('PLease enter a number more than 1');
+    alert('Please enter a number greater than 0');
   } else if (guess > 100) {
-    alert('PLease enter a  number less than 100');
+    alert('Please enter a number less than or equal to 100');
   } else {
     prevGuess.push(guess);
-    if (numGuess === 11) {
+    if (numGuess === 10) {
       displayGuess(guess);
       displayMessage(`Game Over. Random number was ${randomNumber}`);
       endGame();
@@ -58,7 +58,8 @@ function displayGuess(guess) {
   userInput.value = '';
   guessSlot.innerHTML += `${guess}, `;
   numGuess++;
-  remaining.innerHTML = `${11 - numGuess} `;
+  // remaining.innerHTML = `${10 - numGuess} `;
+  remaining.innerHTML = `${numGuess > 0 ? 11 - numGuess : 0} `;
 }
 
 function displayMessage(message) {
@@ -82,7 +83,8 @@ function newGame() {
     prevGuess = [];
     numGuess = 1;
     guessSlot.innerHTML = '';
-    remaining.innerHTML = `${11 - numGuess} `;
+    // remaining.innerHTML = `${10 - numGuess} `;
+    remaining.innerHTML = `${numGuess > 0 ? numGuess - 1 : 0} `;
     userInput.removeAttribute('disabled');
     startOver.removeChild(p);
 
