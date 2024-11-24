@@ -18,11 +18,19 @@
       let intervalId;
       
       document.querySelector('#start').addEventListener('click',function(){
+         // Clear any existing interval before starting a new one
+        //  if (intervalId) {
+        //     clearInterval(intervalId);         // when double clicked start button stop doesn't work
+        // }
          intervalId = setInterval(sayDate, 1000, "Saphal")
       })
 
       document.querySelector('#stop').addEventListener('click',function(){
-        clearInterval(intervalId)
+       // if (intervalId) {
+            clearInterval(intervalId);
+           // intervalId = null; // Reset intervalId
+       // }
+        
 
       })
 
