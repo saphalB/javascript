@@ -12,10 +12,14 @@ toLowerCase
 
 
 # parts of OOP
-Object literal
+Object literals
+
 Constructor function
+
 Prototypes
+
 Classes
+
 Instances (example: new, this)
 
 
